@@ -2,21 +2,34 @@
   <div class="head_section m-auto"></div>
   <div class="general_wrapper pb-2 flex j-center m-auto column">
     <div class="wrapper">
-      <button (click)="goToURl('https://docs.google.com/forms/d/1Z5tEohLYkUdIKpgcrsf_sY7Vfs6X3hFubHLrqAKt_Ac/edit')" class="btn_gen flex j-center m-auto pointer">ПРОЙТИ РЕГИСТРАЦИЮ</button>
+      <button
+        (click)="
+          goToURl(
+            'https://docs.google.com/forms/d/1Z5tEohLYkUdIKpgcrsf_sY7Vfs6X3hFubHLrqAKt_Ac/edit'
+          )
+        "
+        class="btn_gen flex j-center m-auto pointer"
+      >
+        ПРОЙТИ РЕГИСТРАЦИЮ
+      </button>
     </div>
     <p class="p_gen flex j-center m-auto">
-      Для участия на фестивале Вишва сангха махасангам 2023, пожалуйста, заполните краткую форму регистрации.
+      Для участия на фестивале Вишва сангха махасангам 2023, пожалуйста,
+      заполните краткую форму регистрации.
     </p>
     <div class="items_wrap flex j-center m-auto">
       <div class="item_wrapper flex a-center column">
         <div class="img_wrap">
           <img src="../assets/1.jpg" alt="pic" />
         </div>
-        <p class="p_gen mt-1"><b>Информация и регистрация</b></p>
-        <p class="p_gen"><b>Анастасия Кожеко</b></p>
-        <p class="p_gen pb-1"><b>WhatsApp/Telegram:</b></p>
-        <p class="p_gen">+7 999 231-89-91</p>
+        <p class="p_gen mt-1"><b>Старший координатор:</b></p>
+        <p class="p_gen mt-1"><b>Амрита</b></p>
         <p class="p_gen"><a>mahasangam108@gmail.com</a></p>
+        <p class="p_gen mt-1"><b>Информация и регистрация:</b></p>
+        <p class="p_gen mt-1"><b>Анастасия Кожеко</b></p>
+        <p class="p_gen nowrap">+7 999 231-89-91 (WhatsApp/Telegram)</p>
+        <p class="p_gen"><b>Ирина Ситнева</b></p>
+        <p class="p_gen nowrap">+7 (950) 029-41-17 (WhatsApp/Telegram)</p>
       </div>
       <!-- <div class="item_wrapper flex a-center column">
         <div class="img_wrap">
@@ -45,9 +58,84 @@
         <p class="p_gen">whatsapp: +491786460545</p>
       </div> -->
     </div>
-    <p class="p_gen flex j-center m-auto">
-      Данный сайт и мероприятие предназначены только для последователей
-      Всемирной общины Санатана Дхармы.
-    </p>
+    <div class="container-gen">
+      <div class="header-ico-continer wide">
+        <img src="assets/images/sun.svg" alt="sun" />
+        <h2 class="card-container-title">ОРГКОМИТЕТ</h2>
+        <img src="assets/images/sun.svg" alt="sun" />
+      </div>
+      <div class="cm_wrap">
+        <div class="partp">
+          <p class="imgf">
+            <img src="assets/images/png/rm.png" alt="pic" />
+          </p>
+          <p class="c_titl">Махант Раманатха Гири</p>
+          <p class="sb_titl">Куратор ВСМС</p>
+        </div>
+        <div class="row_p">
+          <div class="row_d">
+            <div class="partp">
+              <p class="imgf">
+                <img src="assets/images/png/vk.png" alt="pic" />
+              </p>
+              <p class="c_titl">Вималакирти</p>
+              <p class="sb_titl">Руководитель оргкомитета</p>
+            </div>
+            <div class="partp">
+              <p class="imgf">
+                <img src="assets/images/png/am.png" alt="pic" />
+              </p>
+              <p class="c_titl">Амрита</p>
+              <p class="sb_titl">Старший координатор</p>
+            </div>
+            <div class="partp">
+              <p class="imgf">
+                <img src="assets/images/png/nm.png" alt="pic" />
+              </p>
+              <p class="c_titl">Махалакшми</p>
+              <p class="sb_titl">Пресс-атташе</p>
+            </div>
+          </div>
+        </div>
+        <div class="row_p">
+          <div class="row_d">
+            <div class="partp">
+              <p class="imgf">
+                <img src="assets/images/png/nt.png" alt="pic" />
+              </p>
+              <p class="c_titl">Нитья</p>
+              <p class="sb_titl">Дизайн</p>
+            </div>
+            <div class="partp">
+              <p class="imgf">
+                <img src="assets/images/png/vs.png" alt="pic" />
+              </p>
+              <p class="c_titl">Васудева</p>
+              <p class="sb_titl">web-поддержка</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="footer relative">
+    <div class="header-ico-continer"></div>
+    <div class="footer-inner">
+      <div style="position: absolute; bottom: 0">
+        <div class="footer-text-container">
+          <div class="text">
+            <p class="footer-text">
+              Данный сайт и мероприятие предназначены только для последователей
+              Всемирной общины Санатана Дхармы.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/images/lotus-green-lite.svg"
+        alt="qwe"
+        class="img-footer-absolute"
+      />
+    </div>
+  </div> 
 </main>
