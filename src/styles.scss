@@ -147,11 +147,12 @@ p.mt-1 {
 }
 .card-container-title {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 80px;
   text-align: center;
   text-transform: uppercase;
-  color: #25969e;
+  // color: #25969e;
+  color: #d89628;
   text-shadow: 1px 1px 5px #c3c3ce;
   z-index: 2;
 }
@@ -172,7 +173,7 @@ p.mt-1 {
   top: 20px;
 }
 .partp {
-  margin: 80px auto 0 auto !important;
+  margin: 50px auto 0 auto !important;
   width: fit-content;
 }
 .imgf {
@@ -185,7 +186,7 @@ p.mt-1 {
   font-size: 26px;
   line-height: 24px;
   text-align: center;
-  color: #39a2a7;
+  color: #d89628;
 }
 .sb_titl {
   font-family: "Montserrat", sans-serif;
@@ -193,7 +194,7 @@ p.mt-1 {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  color: #39a2a7;
+  color: #d89628;
 }
 .row_p {
   display: flex;
