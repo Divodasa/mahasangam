@@ -205,12 +205,9 @@ p.mt-1 {
   display: flex;
   width: 80%;
 }
-.footer {
-  background: url(./assets/images/footer-back.svg) 0 0 / cover no-repeat; 
-}
 .footer-inner {
   max-width: 800px;
-  margin: 300px auto 0;
+  margin: 100px auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -234,7 +231,7 @@ p.mt-1 {
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #ffffff;
+  color: rgb(29, 28, 28);
 }
 @media screen and (max-width: 1200px) {
   .items_wrap {
@@ -309,6 +306,9 @@ p.mt-1 {
   .btn_gen {
     font-size: 18px;
     padding: 14px;
+  }
+  .footer-inner {
+    margin: 130px auto 0;
   }
 }
 @media (max-width: 540px) {
