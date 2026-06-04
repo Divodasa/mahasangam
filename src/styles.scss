@@ -51,7 +51,7 @@ textarea:focus {
   outline: transparent;
 }
 .head_section {
-  background: url(assets/main.png) center no-repeat;
+  background: url(assets/main.PNG) center no-repeat;
   background-size: cover;
   min-height: 900px;
   height: 100%;
@@ -175,6 +175,11 @@ p.mt-1 {
 .partp {
   margin: 50px auto 0 auto !important;
   width: fit-content;
+
+  img {
+    width: 255px;
+    height: 255px;
+  }
 }
 .imgf {
   text-align: center;
@@ -277,6 +282,13 @@ p.mt-1 {
   }
 }
 @media (max-width: 610px) {
+  .partp {
+
+    img {
+      width: unset;
+      height: unset;
+    }
+  }
   .header-ico-continer {
     padding: 0 10px;
   }
